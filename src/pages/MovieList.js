@@ -14,19 +14,14 @@ class MovieList extends Component {
   }
 
   componentDidMount() {
-    console.log('DidMount');
     this.fetchMovies();
-    console.log('DidMount end');
   }
 
   fetchMovies = async () => {
-    console.log('fetchMovies func');
     const requestedMovies = await movieAPI.getMovies();
-    // console.log(requestedMovies);
     this.setState({
       movies: requestedMovies,
     });
-    console.log('fetch end');
   };
 
   render() {
@@ -35,14 +30,10 @@ class MovieList extends Component {
     // Render Loading here if the request is still happening
 
     return (
-      <div data-testid="movie-list">
-        <p>Home / </p>
-        {console.log('Render MovieList')}
-        {/* {console.log(movies)} */}
+      <div className="movie-list" data-testid="movie-list">
         { movies.length
           ? movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)
           : <Loading /> }
-        {console.log('Render end')}
       </div>
     );
   }
