@@ -20,9 +20,9 @@ class MovieDetails extends Component {
 
   fetchMovie = async () => {
     const { match: { params: { id } } } = this.props;
-    console.log(id);
+
     const movieRequired = await movieAPI.getMovie(id);
-    console.log(movieRequired);
+
     this.setState({
       movie: movieRequired,
       loading: false,
@@ -31,20 +31,24 @@ class MovieDetails extends Component {
 
   render() {
     // Change the condition to check the state
-    const { loading } = this.state;
+    const { movie, loading } = this.state;
+
     if (loading) return <Loading />;
 
-    const { movie } = this.state;
     const { title, storyline, imagePath, genre, rating, subtitle } = movie;
 
     return (
-      <div data-testid="movie-details">
-        <img alt="Movie Cover" src={ `../${imagePath}` } />
-        <p>{ `Title: ${title} `}</p>
-        <p>{ `Subtitle: ${subtitle}` }</p>
-        <p>{ `Storyline: ${storyline}` }</p>
-        <p>{ `Genre: ${genre}` }</p>
-        <p>{ `Rating: ${rating}` }</p>
+      <div className="movie-card-details" data-testid="movie-details">
+        <img className="movie-card-image" alt="Movie Cover" src={ `../${imagePath}` } />
+        <div className="movie-card-body">
+          <h1 className="movie-card-title">{ `Title: ${title} `}</h1>
+          <h2 className="movie-card-subtitle">{ `Subtitle: ${subtitle}` }</h2>
+          <p className="movie-card-storyline">{ `Storyline: ${storyline}` }</p>
+          <p className="movie-card-storyline">{ `Genre: ${genre}` }</p>
+        </div>
+        <div className="movie-card-rating">
+          <span className="rating">{ `Rating: ${rating}` }</span>
+        </div>
       </div>
     );
   }
