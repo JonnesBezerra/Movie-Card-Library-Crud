@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import { Link } from 'react-router-dom';
 import * as movieAPI from '../services/movieAPI';
 import { Loading } from '../components';
 
@@ -35,7 +36,7 @@ class MovieDetails extends Component {
 
     if (loading) return <Loading />;
 
-    const { title, storyline, imagePath, genre, rating, subtitle } = movie;
+    const { title, storyline, imagePath, genre, rating, subtitle, id } = movie;
 
     return (
       <div className="movie-card-details" data-testid="movie-details">
@@ -49,6 +50,10 @@ class MovieDetails extends Component {
         <div className="movie-card-rating">
           <span className="rating">{ `Rating: ${rating}` }</span>
         </div>
+        <section className="buttons-section">
+          <Link to="/" className="button back-button">VOLTAR</Link>
+          <Link to={ `/movies/${id}/edit` } className="button edit-button">EDITAR</Link>
+        </section>
       </div>
     );
   }

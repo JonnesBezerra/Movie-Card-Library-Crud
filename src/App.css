@@ -1,3 +1,8 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('fonts/bebas-neue/BebasNeue.otf');
+}
+
 body {
   background-color: whitesmoke;
   box-sizing: border-box;
@@ -91,4 +96,27 @@ body {
   display: flex;
   justify-content: flex-end;
   padding: 12px 20px;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border-radius: 25px;
+  color: #f5f5f1;
+  font-family: BebasNeue , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.back-button {
+  background-color: #292f33;
+}
+
+.edit-button {
+  background-color: #b81d24;
 }
