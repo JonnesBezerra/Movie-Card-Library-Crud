@@ -126,6 +126,10 @@ body {
   background-color: #b81d24;
 }
 
+.delete-button {
+  background-color: #e50914;
+}
+
 .view-details {
   background-color: #221f1f;
   margin: 5px 50px;
