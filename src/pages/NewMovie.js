@@ -1,22 +1,43 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 
 import MovieForm from '../components/MovieForm';
-// import * as movieAPI from '../services/movieAPI';
+import * as movieAPI from '../services/movieAPI';
 
 class NewMovie extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      movie: {
+        genre: '',
+        imagePath: '',
+        rating: 0,
+        storyline: '',
+        subtitle: '',
+        title: '',
+      },
+      finishedAdd: false,
+    };
+
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleSubmit(newMovie) {
-    console.log(newMovie);
+    movieAPI.createMovie(newMovie);
+    this.setState({
+      finishedAdd: true,
+    });
   }
 
   render() {
+    const { finishedAdd, movie } = this.state;
+
+    if (finishedAdd) return <Redirect to="/" />;
+
     return (
       <div data-testid="new-movie">
-        <MovieForm onSubmit={ this.handleSubmit } />
+        <MovieForm movie={ movie } onSubmit={ this.handleSubmit } />
       </div>
     );
   }

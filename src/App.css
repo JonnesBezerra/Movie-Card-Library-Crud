@@ -21,6 +21,11 @@ body {
   width: 200px;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
 .movie-list {
   align-content: center;
   display: flex;
@@ -124,4 +129,12 @@ body {
 .view-details {
   background-color: #221f1f;
   margin: 5px 50px;
+}
+
+.add-movie-button {
+  background-color: #e50914;
+  font-size: larger;
+  font-weight: 600;
+  height: 20px;
+  margin: 10px auto;
 }
