@@ -142,3 +142,10 @@ body {
   height: 20px;
   margin: 10px auto;
 }
+
+.loading {
+  color: #e50914;
+  font-family: BebasNeue , sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+}
