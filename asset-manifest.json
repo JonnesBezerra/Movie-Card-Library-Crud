@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c9d573b.chunk.css",
-    "main.js": "/static/js/main.d7f745e3.chunk.js",
-    "main.js.map": "/static/js/main.d7f745e3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.707be6f4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.707be6f4.js.map",
-    "static/js/2.81d3ac8c.chunk.js": "/static/js/2.81d3ac8c.chunk.js",
-    "static/js/2.81d3ac8c.chunk.js.map": "/static/js/2.81d3ac8c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.eed0bb17651b8788da07c113b6b1a0dd.js": "/precache-manifest.eed0bb17651b8788da07c113b6b1a0dd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5c9d573b.chunk.css.map": "/static/css/main.5c9d573b.chunk.css.map",
-    "static/media/App.css": "/static/media/BebasNeue.51b4a619.otf",
-    "static/media/jonnesflix-logo.png": "/static/media/jonnesflix-logo.c5824d31.png"
+    "main.css": "Movie-Card-Library-Crud/static/css/main.b6ae7c63.chunk.css",
+    "main.js": "Movie-Card-Library-Crud/static/js/main.98b36da5.chunk.js",
+    "main.js.map": "Movie-Card-Library-Crud/static/js/main.98b36da5.chunk.js.map",
+    "runtime-main.js": "Movie-Card-Library-Crud/static/js/runtime-main.bba2b4e3.js",
+    "runtime-main.js.map": "Movie-Card-Library-Crud/static/js/runtime-main.bba2b4e3.js.map",
+    "static/js/2.81d3ac8c.chunk.js": "Movie-Card-Library-Crud/static/js/2.81d3ac8c.chunk.js",
+    "static/js/2.81d3ac8c.chunk.js.map": "Movie-Card-Library-Crud/static/js/2.81d3ac8c.chunk.js.map",
+    "index.html": "Movie-Card-Library-Crud/index.html",
+    "precache-manifest.d6ac98e1f04e82cee395a3f431e16dd7.js": "Movie-Card-Library-Crud/precache-manifest.d6ac98e1f04e82cee395a3f431e16dd7.js",
+    "service-worker.js": "Movie-Card-Library-Crud/service-worker.js",
+    "static/css/main.b6ae7c63.chunk.css.map": "Movie-Card-Library-Crud/static/css/main.b6ae7c63.chunk.css.map",
+    "static/media/App.css": "Movie-Card-Library-Crud/static/media/BebasNeue.51b4a619.otf",
+    "static/media/jonnesflix-logo.png": "Movie-Card-Library-Crud/static/media/jonnesflix-logo.c5824d31.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.707be6f4.js",
+    "static/js/runtime-main.bba2b4e3.js",
     "static/js/2.81d3ac8c.chunk.js",
-    "static/css/main.5c9d573b.chunk.css",
-    "static/js/main.d7f745e3.chunk.js"
+    "static/css/main.b6ae7c63.chunk.css",
+    "static/js/main.98b36da5.chunk.js"
   ]
 }
