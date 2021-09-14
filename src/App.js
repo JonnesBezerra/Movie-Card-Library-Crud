@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/auxiliary/Header';
@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <Switch>
         <Route exact path="/" component={ MovieList } />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/movies/:id/edit" component={ EditMovie } />
         <Route component={ NotFound } />
       </Switch>
-    </Router>
+    </>
   );
 }
 
