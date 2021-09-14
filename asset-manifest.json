@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "MovieCardLibraryCrud/static/css/main.e4501bdd.chunk.css",
-    "main.js": "MovieCardLibraryCrud/static/js/main.26bf2879.chunk.js",
-    "main.js.map": "MovieCardLibraryCrud/static/js/main.26bf2879.chunk.js.map",
-    "runtime-main.js": "MovieCardLibraryCrud/static/js/runtime-main.8efc7345.js",
-    "runtime-main.js.map": "MovieCardLibraryCrud/static/js/runtime-main.8efc7345.js.map",
-    "static/js/2.c01ffa06.chunk.js": "MovieCardLibraryCrud/static/js/2.c01ffa06.chunk.js",
-    "static/js/2.c01ffa06.chunk.js.map": "MovieCardLibraryCrud/static/js/2.c01ffa06.chunk.js.map",
-    "index.html": "MovieCardLibraryCrud/index.html",
-    "precache-manifest.c24896b1507108f06b39a45e1946349f.js": "MovieCardLibraryCrud/precache-manifest.c24896b1507108f06b39a45e1946349f.js",
-    "service-worker.js": "MovieCardLibraryCrud/service-worker.js",
-    "static/css/main.e4501bdd.chunk.css.map": "MovieCardLibraryCrud/static/css/main.e4501bdd.chunk.css.map",
-    "static/media/App.css": "MovieCardLibraryCrud/static/media/BebasNeue.51b4a619.otf",
-    "static/media/jonnesflix-logo.png": "MovieCardLibraryCrud/static/media/jonnesflix-logo.c5824d31.png"
+    "main.css": "./static/css/main.c955ce20.chunk.css",
+    "main.js": "./static/js/main.c3af977a.chunk.js",
+    "main.js.map": "./static/js/main.c3af977a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.e38fd29e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.e38fd29e.js.map",
+    "static/js/2.c01ffa06.chunk.js": "./static/js/2.c01ffa06.chunk.js",
+    "static/js/2.c01ffa06.chunk.js.map": "./static/js/2.c01ffa06.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.605d056cf9d43bd46cbf9373ae24c33c.js": "./precache-manifest.605d056cf9d43bd46cbf9373ae24c33c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c955ce20.chunk.css.map": "./static/css/main.c955ce20.chunk.css.map",
+    "static/media/App.css": "./static/media/BebasNeue.51b4a619.otf",
+    "static/media/jonnesflix-logo.png": "./static/media/jonnesflix-logo.c5824d31.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8efc7345.js",
+    "static/js/runtime-main.e38fd29e.js",
     "static/js/2.c01ffa06.chunk.js",
-    "static/css/main.e4501bdd.chunk.css",
-    "static/js/main.26bf2879.chunk.js"
+    "static/css/main.c955ce20.chunk.css",
+    "static/js/main.c3af977a.chunk.js"
   ]
 }
