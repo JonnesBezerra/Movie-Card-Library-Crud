@@ -1,12 +1,50 @@
-### Termos e acordos
+# Este é o repositório do projeto Movie Cards CRUD
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
+Movie Cards CRUD é um Web App de CRUD de cartões com informações sobre filmes em React.
 
-# Boas vindas ao repositório do projeto de Movie Cards CRUD!
+---
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+## Link para página web do Movie Cards CRUD
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+<div align="center">
+  <a href="https://jonnesbezerra.github.io/MovieCardLibraryCrud/#/" target="_blank">
+    <img width=100px src="https://cdn2.iconfinder.com/data/icons/inficons-set-5/1000/link-chain-512.png" />
+  </a>
+</div>
+
+---
+
+# Habilidades desenvolvidas nesse projeto foram:
+
+  - Utilizar o componentDidMount para executar uma ação após o componente ser inserido no DOM;
+  - Utilizar o shouldComponentUpdate para avaliar se uma atualização do componente deve ou não acontecer naquele momento;
+  - Utilizar o componentDidUpdate para executar uma ação após o componente ser atualizado;
+  - Utilizar o componentWillUnmount para realizar uma ação antes de o componente ser desmontado;
+  - Utilizar o props.children para acessar os filhos de um componente React e interagir com eles;
+  - Utilizar o componente BrowserRouter corretamente;
+  - Criar links de navegação na aplicação com o componente Link ;
+  - Criar rotas, mapeando o caminho da URL com o componente correspondente, via Route ;
+  - Estruturar e organizar as rotas da sua aplicação com o componente Switch ;
+  - Usar o componente Redirect pra alternar entre rotas.
+
+# Instruções para rodar o projeto em sua máquina:
+  
+  1. Clone o projeto em um diretório na sua máquina utilizando o seguinte comando no terminal:
+  ```bash 
+  git clone git@github.com:JonnesBezerra/MovieCardLibraryCrud.git
+  ```
+  2. Agora entre no diretório do projeto e instale as dependências com o seguinte comando:
+  ```bash
+  cd MovieCardLibraryCrud/ && npm install
+  ```
+  3. Depois que a instalação terminar finalmente você pode rodar o projeto digitando o seguinte comando:
+  ```bash
+  npm start
+  ```
+  
+# Este projeto foi desenvolvido como objeto de estudo na Trybe:
+
+  [Trybe](https://www.betrybe.com/)
 
 # Sumário
 
