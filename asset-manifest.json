@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.c955ce20.chunk.css",
-    "main.js": "./static/js/main.c3af977a.chunk.js",
-    "main.js.map": "./static/js/main.c3af977a.chunk.js.map",
+    "main.js": "./static/js/main.62bd3e8a.chunk.js",
+    "main.js.map": "./static/js/main.62bd3e8a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e38fd29e.js",
     "runtime-main.js.map": "./static/js/runtime-main.e38fd29e.js.map",
     "static/js/2.c01ffa06.chunk.js": "./static/js/2.c01ffa06.chunk.js",
     "static/js/2.c01ffa06.chunk.js.map": "./static/js/2.c01ffa06.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.3b56e579cd1819f25e5fa154c4cdf473.js": "./precache-manifest.3b56e579cd1819f25e5fa154c4cdf473.js",
+    "precache-manifest.1e8e28bb6cde7c2bd170e525a9fd73cd.js": "./precache-manifest.1e8e28bb6cde7c2bd170e525a9fd73cd.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.c955ce20.chunk.css.map": "./static/css/main.c955ce20.chunk.css.map",
     "static/media/App.css": "./static/media/BebasNeue.51b4a619.otf",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e38fd29e.js",
     "static/js/2.c01ffa06.chunk.js",
     "static/css/main.c955ce20.chunk.css",
-    "static/js/main.c3af977a.chunk.js"
+    "static/js/main.62bd3e8a.chunk.js"
   ]
 }
